@@ -1,0 +1,260 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F5;
+  gap: 65px;
+}
+
+.page {
+  width: 213px;
+  height: 518px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px #e3e3e3;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 15px 13px 15px;
+  font-size: 10px;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+  padding-bottom: 30px;
+}
+
+.artist img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #b75a2fe4;
+}
+
+.artist-name {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 25px 0px 10px 0px;
+}
+
+.artist-class {
+  font-size: 8px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  color: #bcbcbc;
+}
+
+.artist-button {
+  display: flex;
+  gap: 7px;
+}
+
+.artist-button div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 27px;
+  border-radius: 13.5px;
+  box-shadow: 0px 0px 5px #e3e3e3;
+}
+
+.artist-button__shuffle {
+  background-color: #222222;
+  color: white;
+  font-size: 10px;
+}
+
+.artist-button__hart {
+  color: #222222;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.artist-button i {
+  font-size: 10px;
+}
+
+.artist-button__hart span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #bcbcbc;
+}
+
+.artist-another {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 25px 0px 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.artist-another img {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.artist-another__box div {
+  font-size: 8px;
+  font-weight: bold;
+  position: absolute;
+  left: 40px;
+}
+
+.artist-another__box-name {
+  color: #bcbcbc;
+  position: absolute;
+  top: 3px;
+}
+
+.artist-another__box-title {
+  position: absolute;
+  bottom: 3px;
+  text-transform: uppercase;
+}
+
+.artist-another i {
+  font-size: 12px;
+}
+
+.player-box {
+  display: flex;
+  margin: 0px 10px;
+  height: 45px;
+  width: auto;
+  background-color: #222222;
+  border-radius: 22.5px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  font-size: 10px;
+}
+
+.player-box__text-name {
+  color: #7A7A7A;
+}
+
+.player-box__text-title {
+  text-transform: uppercase;
+}
+
+.player-box__button {
+  display: flex;
+  width: 56px;
+  justify-content:space-between;
+}
+
+.mucis-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mucis-title img{
+  height: 155px;
+  width: 155px;
+  border-radius: 10px;
+  margin: 43px 0px;
+  box-shadow: 0px 6px 40px #b75a2fe4;
+}
+
+.mucis-title-title {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mucis-title-name {
+  font-size: 8px;
+  font-weight: bold;
+  color: #bcbcbc;
+  margin-bottom: 27px;
+}
+
+.mucic-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-bar__time {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+.music-bar__time-background {
+  height: 2px;
+  width: 180px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 1px;
+  position: absolute;
+  left: 0px;
+}
+
+.music-bar__time-color {
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  left: 0px;
+  width: 110px;
+}
+
+.music-bar__time-dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 2px;
+  background-color: black;
+  position: absolute;
+  left: 110px;
+}
+
+.player {
+  margin-top: 30px;
+  padding: 25px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.player div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px #181818;
+}
+
+.player>i:first-child {
+  color: gray;
+}
+
+.player>i:last-child {
+  color: gray;
+}
